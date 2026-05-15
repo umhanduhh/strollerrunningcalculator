@@ -146,55 +146,7 @@ export default function StrollerCalculatorApp() {
                       </div>
                     </div>
 
-                    {/* Another Mother Runner resource card */}
-                    <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg p-6 border border-pink-200">
-                      <div className="flex items-start gap-4">
-                        <div className="flex-shrink-0">
-                          <div className="w-12 h-12 bg-pink-600 rounded-lg flex items-center justify-center">
-                            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                        <div className="flex-1">
-                          <h4 className="text-lg font-bold text-gray-900 mb-2">
-                            <a
-                              href="https://anothermotherrunner.com/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-pink-600 hover:text-pink-700 transition-colors"
-                            >
-                              Another Mother Runner
-                            </a>
-                          </h4>
-                          <p className="text-gray-700 mb-3">
-                            Inspiring women with expert-led training programs, lively podcasts, friendly advice, and,
-                            most importantly, each other.
-                          </p>
-                          <a
-                            href="https://anothermotherrunner.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-semibold transition-colors"
-                          >
-                            Visit Another Mother Runner
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                              />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </div>
