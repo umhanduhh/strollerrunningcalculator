@@ -286,7 +286,7 @@ export default function StrollerCalculator() {
                     type="number"
                     value={runnerWeight}
                     onChange={(e) => handleInputChange(e, setRunnerWeight, 100, 275)}
-                    className="form-input w-20 h-8 text-center"
+                    className="form-input form-input-compact"
                     min={100}
                     max={275}
                   />
@@ -360,7 +360,7 @@ export default function StrollerCalculator() {
                     type="number"
                     value={distance}
                     onChange={(e) => handleInputChange(e, setDistance, 0.1, 26.2)}
-                    className="form-input w-20 h-8 text-center"
+                    className="form-input form-input-compact"
                     min={0.1}
                     max={26.2}
                     step={0.1}
@@ -406,7 +406,7 @@ export default function StrollerCalculator() {
                         }
                       }
                     }}
-                    className="form-input w-20 h-8 text-center"
+                    className="form-input form-input-compact"
                   />
                   <span className="text-sm text-gray-500">min/mile</span>
                 </div>
@@ -463,7 +463,7 @@ export default function StrollerCalculator() {
                   type="number"
                   value={elevationGain}
                   onChange={(e) => handleInputChange(e, setElevationGain, 0, maxElevation)}
-                  className="form-input w-20 h-8 text-center"
+                  className="form-input form-input-compact"
                   min={0}
                   max={maxElevation}
                   step={10}
@@ -532,7 +532,7 @@ export default function StrollerCalculator() {
                       handleInputChange(e, setStrollerWeight, 5, 40)
                       setSelectedStroller("other")
                     }}
-                    className="form-input w-20 h-8 text-center"
+                    className="form-input form-input-compact"
                     min={5}
                     max={40}
                     disabled={selectedStroller !== "other"}
@@ -567,7 +567,7 @@ export default function StrollerCalculator() {
                     type="number"
                     value={childWeight}
                     onChange={(e) => handleInputChange(e, setChildWeight, 5, 120)}
-                    className="form-input w-20 h-8 text-center"
+                    className="form-input form-input-compact"
                     min={5}
                     max={120}
                   />

@@ -334,6 +334,27 @@ body {
   color: var(--muted-foreground);
 }
 
+/* Compact inline value boxes next to sliders: keep room for the digits */
+.form-input.form-input-compact {
+  width: 6rem;
+  min-width: 6rem;
+  height: 44px;
+  padding: 0 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.form-input.form-input-compact::-webkit-outer-spin-button,
+.form-input.form-input-compact::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* Range Sliders - Improved Sizing */
 .range-slider {
   width: 100%;
